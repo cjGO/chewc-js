@@ -1,1 +1,13 @@
-This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
+# chewc-js
+
+## Installation
+
+To install the dependencies for this project, run the following command:
+
+```sh
+npm install
+```
+
+## Usage
+
+To use the library, import it into your project and call the functions as needed.

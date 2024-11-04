@@ -1,0 +1,19 @@
+{
+  "name": "chewc-js",
+  "version": "1.0.0",
+  "description": "A tensorflow.js breeding simulation software",
+  "main": "src/index.js",
+  "author": "Author Name",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
