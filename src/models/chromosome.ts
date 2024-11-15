@@ -1,25 +1,13 @@
 import Allele from "./allele";
 
 class Chromosome {
+    id: number;
     alleles: Allele[];
-    // Represents segments of inherited chromosomes using position-origin lists
-    segments: Array<{
-        startPosition: number;  // cM position where segment starts
-        originId: number;      // Source/founder ID this segment came from
-    }>;
-
-    constructor(alleles: Allele[] = []) {
+    
+    constructor(id: number, alleles: Allele[] = []) {
+        this.id = id;
         this.alleles = alleles;
-        this.segments = [];
-    }
-
-    // Add a new segment during recombination
-    addSegment(startPosition: number, originId: number) {
-        this.segments.push({
-            startPosition,
-            originId
-        });
     }
 }
 
-export default Chromosome
+export default Chromosome;
