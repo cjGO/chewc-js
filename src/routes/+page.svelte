@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import FounderPool from '$lib/components/FounderPool.svelte';
+	import FounderIndividualPool from '$lib/components/FounderIndividualPool.svelte';
+</script>
+
+<div class="container mx-auto space-y-8">
+	<FounderPool />
+	<FounderIndividualPool />
+</div>
