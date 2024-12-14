@@ -75,4 +75,3 @@ export function sampleFounderIndividuals(count: number) {
     }
   }).unsubscribe();
 }
-
