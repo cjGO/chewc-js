@@ -1,7 +1,7 @@
 // lib/stores.ts
 import { writable } from 'svelte/store';
-import type { Chromosome, Individual } from './core';
-import { resetNextFounderId, resetNextIndividualId, createFounderIndividual } from './core';
+import type { Chromosome, Individual } from './sim/core';
+import { resetNextFounderId, resetNextIndividualId, createFounderIndividual } from './sim/core';
 
 export const founderPool = writable<Chromosome[]>([]);
 
