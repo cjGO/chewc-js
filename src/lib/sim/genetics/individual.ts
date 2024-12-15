@@ -1,6 +1,6 @@
 //individual
 
-import type { Chromosome } from "./genetics/chromosome";
+import type { Chromosome } from "./chromosome";
 
 let nextFounderId = 1;
 
