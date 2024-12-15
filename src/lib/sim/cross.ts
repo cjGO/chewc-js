@@ -1,5 +1,5 @@
-import type { Individual } from './core';
-import { createFounderIndividual } from './core';
+import type { Individual } from './individual';
+import { createFounderIndividual } from './individual';
 import { meiosis } from './meiosis';
 
 /**

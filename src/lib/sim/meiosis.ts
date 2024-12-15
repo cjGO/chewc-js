@@ -1,4 +1,5 @@
-import type { Individual, Chromosome } from './core';
+import type { Individual } from './individual';
+import type { Chromosome } from './chromosome';
 
 /**
  * Simulates meiosis by creating a new chromosome with crossovers between maternal and paternal chromosomes
