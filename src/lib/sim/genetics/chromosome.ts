@@ -1,4 +1,5 @@
-import { founderIdGenerator } from "../utils";
+import { founderIdGenerator } from "../utils/utils";
+
 
 export interface Chromosome {
     readonly markers: Uint8Array;
